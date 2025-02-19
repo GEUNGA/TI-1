@@ -24,31 +24,26 @@ include "inc/menu.php"
 
 
     <img class="imagecontenu" src="images/contacts.jpg" alt="contact">
-<div class="formulaire">
-    <h3> Pour nous laisser un commentaire ou pour obtenir un renseignement complémentaire, remplissez le formulaire ci-dessous  :</h3>
-    <div>
-        <label for="nom">Nom :</label><form action="" method="POST"><input name="login" type="text">
+
+    <p class="formulaire"> Pour nous laisser un commentaire ou pour obtenir un renseignement complémentaire, remplissez le formulaire ci-dessous  :</p>
+    
+    <div class="formulaire">
+ 
+    
+
+    <div class>
+        <label for="prenom">Nom :</label><form action="" method="POST"><input name="login" type="text">
         </form>
-    </div>
-    <div>
         <label for="prenom">Prénom :</label><form action="" method="POST"><input name="login" type="text">
         </form>
-    </div>
-    <div>
         <label for="ville">Ville :</label><form action="" method="POST"><input name="login" type="text">
         </form>
-    </div>
-    <div>
         <label for="email">Email :</label><form action="" method="POST"><input name="login" type="text">
         </form>
+        <label for="commentaires">Commentaires :</label><form action="" method="POST"> <input name="login" type="textearea">
     </div>
-    <div>    
-        <label for="commentaires">Commentaires :</label><form action="" method="POST"> <input name="login" type="text">
-        
-    </div>
+
     <input type="submit" value="Envoyer votre message">
-</form>
-    
     
 </div>
 

@@ -219,10 +219,12 @@ a{
 }
 
 form{
+    
     padding:15px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
+
 
 
 input[type='text'] {
@@ -248,7 +250,45 @@ textarea {
 
 
 
+/** --- LIENS --- **/
 
+
+.lien{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+}
+.lien1 a{
+    font-size: 15px;
+    color:#A90331;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.lien2 a{
+    font-size: 15px;
+    color:#A90331;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.lien3 a{
+    font-size: 15px;
+    color:#A90331;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.titrelien{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+}
 
 
 /** --- 404 --- */

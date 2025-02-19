@@ -23,7 +23,7 @@ include "inc/menu.php"
 
         <img class="imagecontenu" src="images/liens.jpg" alt="liens">
 
-        <h3>
+        <p class="titrelien">D'autre capitales se sont associées à notre site<p>
 
 
         <div class="lien">

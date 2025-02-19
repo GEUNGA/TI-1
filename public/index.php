@@ -32,7 +32,7 @@ if(isset($_GET["p"])){
             break;
         default:
         $title ="autreValeur";
-        include "../template/erreur404.php";
+        include "../template/page-404.php";
     }   
    }   else{
             include "../template/index.php";

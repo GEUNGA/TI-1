@@ -32,7 +32,24 @@ include "inc/menu.php"
 
     <p>La commune s'étend sur 450 km2 et possède de grands parcs ainsi que des pistes de ski de fond. Important nœud de communication ferroviaire et portuaire, la ville est desservie par un réseau routier et autoroutier dense et de nombreux trains de banlieue.</p>
 
-    <a class="lienwiki" href="https://fr.wikipedia.org/wiki/Oslo">source wikipedia</a>
+
+    <p class="centre"> Dans ce site, vous trouverez diverses informations concernant : <p>
+    
+            
+            <a class="basdepage" href="?p=geo">Une brève présentation d'Oslo</a><br>
+            <a class="basdepage" href="?p=hist">Un rappel historique de sa fondation à aujourd'hui</a><br>
+            <a class="basdepage" href="?p=cult">Un tour d'horizon en matière d'art et de culture</a><br>
+            <a class="basdepage" href="">autre lien</a><br>
+            <a class="basdepage" href="">autre lien</a><br>
+            <a class="basdepage" href="">autre lien</a><br>
+
+            <a class="lienwiki" href="https://fr.wikipedia.org/wiki/Oslo">source wikipedia</a>
+
+
+        
+    
+
+
 </div>
 </body>
 

@@ -157,6 +157,21 @@ a{
     text-decoration: none;
 }
 
+.basdepage{
+    color:#A90331;
+    line-height: 0.1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 15px;
+}
+
+.centre{
+    text-align: center;
+    line-height: 1;
+    font-size:
+20px ;}
+
 
 
 /** --- CULTURE --- */

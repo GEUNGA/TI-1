@@ -309,12 +309,12 @@ textarea {
 /** --- 404 --- */
 
 
-h4{
+h6{
 
     display: block;
-    font-size: 120px;
+    font-size: 20px;
     text-align: center;
-    margin-top:250px;
+    margin-top:50px;
 }
 
 .erreur{

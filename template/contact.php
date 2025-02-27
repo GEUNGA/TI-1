@@ -6,15 +6,17 @@
 <title><?=$title ?></title>
 <link type="text/css" rel="stylesheet" href="css/style.css">
 </head>
-<header>
+
 <?php
 include "inc/banniere.php"
 ?>
 
+<nav>
 <?php
 include "inc/menu.php"
 ?>
-</header>
+</nav>
+
 <body>
 
 <div class="container">
@@ -28,22 +30,37 @@ include "inc/menu.php"
     <p class="formulaire"> Pour nous laisser un commentaire ou pour obtenir un renseignement complémentaire, remplissez le formulaire ci-dessous  :</p>
     
     <div class="formulaire">
- 
     
+        <div class="tab1">
+            <label for="Nom">Nom :</label> 
+            <form action="" method="POST"><input name="login" type="text"></form>
+        </div>
 
-    <div class>
-        <label for="prenom">Nom :</label><form action="" method="POST"><input name="login" type="text">
-        </form>
-        <label for="prenom">Prénom :</label><form action="" method="POST"><input name="login" type="text">
-        </form>
-        <label for="ville">Ville :</label><form action="" method="POST"><input name="login" type="text">
-        </form>
-        <label for="email">Email :</label><form action="" method="POST"><input name="login" type="text">
-        </form>
-        <label for="commentaires">Commentaires :</label><form action="" method="POST"> <input name="login" type="textearea">
-    </div>
+        <div class="tab1">
+            <label for="prenom">Prénom :</label> 
+            <form action="" method="POST"><input name="login" type="text">
+            </form>
+        </div>
+        <div class="tab1">
+            <label for="prenom">Email :</label> 
+            <form action="" method="POST"><input name="login" type="text">
+            </form>
+        </div>
+        <div class="tab1">
+            <label for="prenom">Ville:</label> 
+            <form action="" method="POST"><input name="login" type="text">
+            </form>
+        </div>
+        <div class="commentaire">
+        <label for="msg">Commentaire :</label>
+        <textarea name="msg" id="msg"></textarea>
+        </div> 
+            <input type="submit" value="Envoyer votre message">
 
-    <input type="submit" value="Envoyer votre message">
+            
+        </div>
+        
+    
     
 </div>
 

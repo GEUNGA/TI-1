@@ -4,16 +4,17 @@
 <title><?=$title ?></title>
 <link type="text/css" rel="stylesheet" href="css/style.css">
 </head>
-<header>
+
 <?php
 include "inc/banniere.php"
 ?>
 
+<nav>
 <?php
 include "inc/menu.php"
 ?>
+</nav>
 
-</header>
 <body>
 
 <body>

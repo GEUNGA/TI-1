@@ -6,15 +6,19 @@
 <title><?=$title ?></title>
 <link type="text/css" rel="stylesheet" href="css/style.css">
 </head>
-<header>
+
 <?php
 include "inc/banniere.php"
 ?>
 
+
+<nav>
 <?php
 include "inc/menu.php"
 ?>
-</header>
+</nav>
+
+
 <body>
 <div class="container">
 
@@ -39,11 +43,10 @@ include "inc/menu.php"
             <a class="basdepage" href="?p=geo">Une brève présentation d'Oslo</a><br>
             <a class="basdepage" href="?p=hist">Un rappel historique de sa fondation à aujourd'hui</a><br>
             <a class="basdepage" href="?p=cult">Un tour d'horizon en matière d'art et de culture</a><br>
-            <a class="basdepage" href="">autre lien</a><br>
-            <a class="basdepage" href="">autre lien</a><br>
-            <a class="basdepage" href="">autre lien</a><br>
-
-            <a class="lienwiki" href="https://fr.wikipedia.org/wiki/Oslo">source wikipedia</a>
+            <a class="basdepage" href="?p=gal">autre lien</a><br>
+            <a class="basdepage" href="?p=form">autre lien</a><br>
+            <a class="basdepage" href="?p=link">autre lien</a><br>
+            <a class="basdepage2" href="https://fr.wikipedia.org/wiki/Oslo">source wikipedia</a>
 
 
         

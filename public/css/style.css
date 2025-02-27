@@ -44,9 +44,12 @@ margin:20px 30px;
 
 /* BANNIERE */
 
+
+
 .banniere{
     display: flex;
     justify-content: center;
+    border-radius: 50%;
   
 }
 
@@ -56,7 +59,10 @@ margin:20px 30px;
     justify-content: center;
     width: 1280px;
     text-align: center;
-   
+}
+
+.banniere2 img{
+    border-radius: 10px;
 }
 
 .capitale{
@@ -81,45 +87,62 @@ margin:20px 30px;
 /* --- MENU --- */
 
 
-.nav-bar{
+
+
+nav{
     position:sticky;
     top:0;
-    width: 1280px;
-    margin: 0 auto;
-    padding: 0 auto;
-    font-weight: bold;
-    flex-direction:row ;
-    justify-content: center;
-    margin-bottom: 10px;
-    margin-top:10px;
-    border: 2px solid black;
+    width:1280px;
+	height:50px;
+    margin: 10px auto;
+   
+    
+    
+}
+
+
+nav ul{
     border-radius: 10px;
-    background-color: lightgrey;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-.nav-bar ul{
-    display:flex;
-    flex-direction: row;
-    list-style: none;
-}
-
-.nav-bar a {
+    border: 2px solid black;
+    height: 50px;
+    background-color:#CCC;
+    padding :0px 75px;
     
-    display:flex;
-    flex-direction:row ;
-    padding : 10px;
-    text-decoration: none;
-    color: black;
     
 }
 
-.nav-bar a:hover {
-    font-weight: bold;
+nav li {
+	list-style-type:none;           /* pour éliminer les "bullet" les puces */
+	list-style-position:inside;
+    /* solution alternative */
+    /* display: inline-block; */
+}
+
+nav a{
+    /* solution alternative */
+    /* enlever le float mais laisser le display:block */
+	float:left;
+	display:block;
+	text-decoration: none;          /* enlever le souligné des liens */
+	text-align:center;
+	width:160px;
+    /* solution alternative */
+    /* réduire un peu la largeur pour que tous les éléments s'alignent */²
+	height:50px;
+	line-height:50px;
+	background-color:#CCC;
+    color:black;
+	font-family: Arial,sans-serif;
+	font-weight: bold;
+	font-size:1em;
+}
+
+nav a:hover {
+    
     color:white;
     background-color: #A90331; 
+    transition: 0.5s;
+    
 }
 
 
@@ -145,14 +168,6 @@ text-align: justify;
 
 /* --- ACCUEIL ---  */
 
-.lienwiki{
-    padding-top: 20px;
-    text-align: center;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:15px;
-}
-
 a{
     text-decoration: none;
 }
@@ -166,6 +181,15 @@ a{
     font-size: 15px;
 }
 
+.basdepage2{
+    color:#000000;
+    line-height: 0.1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 15px;
+    margin-top:15px;
+}
 .centre{
     text-align: center;
     line-height: 1;
@@ -225,20 +249,28 @@ a{
 
 
 .formulaire{
-    display: inline-block;
-    margin: 0px auto;
+    
+    display: flex;
+    flex-direction: column;
     padding-bottom: 100px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
- 
 }
 
-form{
-    
-    padding:15px;
+form {
+    display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
+    padding:5px;
+
 }
+
+.tab1{
+    display: inline-block;
+    
+    
+}
+
 
 
 
@@ -248,12 +280,11 @@ input[type='text'] {
 }
 
 input[type='submit'] {
+    
     width:250px;
     padding:10px;
+    margin-top:30px;
     border-radius:20px; 
-}
-label{
-    display:inline-block;
 }
 
 textarea {
